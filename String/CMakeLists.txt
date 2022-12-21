@@ -3,6 +3,5 @@ project(LeetCode_LevelOne)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
-add_subdirectory(./Prefix-Sum)
-add_subdirectory(./String)
+add_executable(205 205.cc)
+add_executable(392 392.cc)
